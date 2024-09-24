@@ -8,18 +8,28 @@
 //Console.WriteLine("The addition of the 2 numbers is {0}" , result);
 //Console.ReadKey();
 
+CalculatorApp();
 
-//First Number taken from user
+void CalculatorApp() {
 
-Console.WriteLine("Type in the first number followed by the Enter key");
-int firstNumber =  Convert.ToInt32(Console.ReadLine());
+
+    int firstNumber = 0;
+    int secondNumber = 0;
+    int result = 0;
+
+    //First Number taken from user
+
+    Console.WriteLine("Type in the first number followed by the Enter key");
+ firstNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Type in the second number followed by the Enter key");
-int secondNumber = Convert.ToInt32(Console.ReadLine());
+ secondNumber = Convert.ToInt32(Console.ReadLine());
 
 //Calculation result
-int result = firstNumber + secondNumber;
+ result = firstNumber + secondNumber;
 
 Console.WriteLine("Adding {0} and {1} give the answer {2}", firstNumber, secondNumber, result);
 
-Console.WriteLine("Adding {0} and {1} give the answer {2}", firstNumber, secondNumber, result);
+ 
+
+}
